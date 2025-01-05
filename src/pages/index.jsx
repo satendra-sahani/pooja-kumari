@@ -26,7 +26,7 @@ const FloatingIcon = ({ Icon, delay, x, y }) => (
   </motion.div>
 );
 
-const SkillBadge = ({ children }: { children: React.ReactNode }) => (
+const SkillBadge = ({ children })=> (
   <motion.span
     className="bg-yellow-200 text-yellow-800 text-sm font-medium px-3 py-1 rounded-full inline-flex items-center"
     whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(250, 204, 21, 0.4)" }}
@@ -35,7 +35,7 @@ const SkillBadge = ({ children }: { children: React.ReactNode }) => (
   </motion.span>
 );
 
-const SectionTitle = ({ children }: { children: React.ReactNode }) => (
+const SectionTitle = ({ children })=> (
   <h2 className="text-3xl font-bold mb-8 text-yellow-800 border-b-2 border-yellow-400 pb-2 inline-block">
     {children}
   </h2>
